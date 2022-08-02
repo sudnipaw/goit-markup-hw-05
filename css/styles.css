@@ -132,7 +132,7 @@
   height: 600px;
   left: 0px;
   top: 80px;
-  background-image: url(/images/backgroun.jpg),
+  background-image: url(../images/backgroun.jpg),
     linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
 }
 .button {
