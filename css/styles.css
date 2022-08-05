@@ -27,6 +27,9 @@
 
 .nav-list-item:hover {
   color: rgba(33, 150, 243, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio {
   color: rgba(0, 0, 0, 1);
@@ -66,6 +69,9 @@
 }
 .nav-list:hover {
   color: rgba(33, 150, 243, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-mail {
   font-family: "Roboto";
@@ -96,6 +102,9 @@
 }
 .nav-mail:hover {
   color: rgba(33, 150, 243, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-phone {
   font-family: "Roboto";
@@ -109,6 +118,9 @@
 }
 .nav-phone:hover {
   color: rgba(33, 150, 243, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .motto {
   font-family: "Roboto";
@@ -207,6 +219,27 @@
   display: flex;
   gap: 30px;
 }
+.duties-photo {
+  position: relative;
+}
+.duties-label {
+  position: absolute;
+  display: flex;
+  width: 370px;
+  height: 70px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background: rgba(47, 48, 58, 0.8);
+}
+.duties-photo {
+  position: relative;
+}
 /* NASZ ZESPÓŁ */
 .container-team {
   width: 1600px;
@@ -278,6 +311,9 @@
 }
 .portfolio-menu:hover {
   background-color: rgba(33, 150, 243, 1);
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-menu-container {
   width: 1200px;
@@ -331,6 +367,9 @@
   fill: white;
   background-color: #2196f3;
   cursor: pointer;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .figcaption-box {
   border: 1px solid rgba(238, 238, 238, 1);
@@ -341,6 +380,9 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-lorem {
   list-style: none;
@@ -437,6 +479,9 @@
   fill: #2196f3;
   border-color: #2196f3;
   cursor: pointer;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-footer {
   height: 252px;
@@ -477,6 +522,9 @@
 }
 .nav-mail-footer:hover {
   color: rgba(33, 150, 243, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-phone-footer {
   padding-top: 9px;
@@ -493,6 +541,9 @@
 }
 .nav-phone-footer:hover {
   color: rgba(33, 150, 243, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-footer {
   font-family: Roboto;
@@ -509,7 +560,6 @@
   padding-left: 70px;
 }
 .footer-socialmedia-header {
-  /* position: absolute; */
   width: 113px;
   height: 16px;
   left: 531px;
@@ -543,4 +593,7 @@
 .footer-socialmedia-logo:focus {
   background-color: #2196f3;
   cursor: pointer;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
