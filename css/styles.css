@@ -227,18 +227,23 @@
   display: flex;
   width: 370px;
   height: 70px;
+  bottom: 0px;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: center;
+  align-items: center;
   justify-content: center;
+  text-transform: uppercase;
   color: white;
   background: rgba(47, 48, 58, 0.8);
 }
 .duties-photo {
   position: relative;
+  display: flex;
+  width: 370px;
+  height: 294px;
 }
 /* NASZ ZESPÓŁ */
 .container-team {
