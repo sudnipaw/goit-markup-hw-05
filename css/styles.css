@@ -25,13 +25,12 @@
   padding-bottom: 32px;
 }
 .active::after {
-  position: absolute;
-  width: 53px;
   height: 4px;
+  width: 53px;
   left: 453px;
   top: 76px;
-  background: #2196f3;
   border-radius: 2px;
+  background: rgba(33, 150, 243, 1);
 }
 
 .nav-list-item:hover {
