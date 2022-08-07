@@ -438,7 +438,40 @@
   color: #757575;
   padding: 0px 20px;
 }
+.portfolio-card {
+  margin: 0px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 294px;
+  transform: translateY(100%);
+  padding-top: 49px;
+  padding-left: 24px;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.portfolio-card:hover .portfolio-overlay {
+  background: rgba(33, 150, 243, 0.9);
+  transform: translateY(0);
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-overlay-text {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: white;
+}
 .container {
   width: 1600px;
   height: 80px;
