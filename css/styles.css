@@ -21,10 +21,11 @@
   padding-bottom: 25px;
 }
 .nav-list-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  gap: 46px;
 }
 .active::after {
+  content: "";
+  position: absolute;
   height: 4px;
   width: 53px;
   left: 453px;
@@ -32,7 +33,16 @@
   border-radius: 2px;
   background: rgba(33, 150, 243, 1);
 }
-
+.active-portfolio::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 53px;
+  left: 552px;
+  top: 76px;
+  border-radius: 2px;
+  background: rgba(33, 150, 243, 1);
+}
 .nav-list-item:hover {
   color: rgba(33, 150, 243, 1);
   transition-property: color;
@@ -58,13 +68,19 @@
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.navigation {
+  padding-left: 93px;
+  padding-top: 32px;
+}
 .list {
   list-style: none;
   text-decoration: none;
+  width: 254px;
   display: flex;
+  gap: 46px;
   text-align: center;
 }
-.nav-list {
+.nav-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -73,7 +89,6 @@
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
-  padding-left: 41px;
 }
 .nav-list:hover {
   color: rgba(33, 150, 243, 1);
