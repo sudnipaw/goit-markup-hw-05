@@ -418,15 +418,25 @@
   display: flex;
   gap: 30px;
 }
+.portfolio-figcaption {
+  width: 322px;
+  height: 70px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
 .portfolio-figcaption-name {
   font-family: "Roboto";
   font-style: normal;
+  height: 36px;
+  width: 325px;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
-  padding: 0px 20px;
 }
 .portfolio-figcaption-role {
   font-family: "Roboto";
@@ -436,11 +446,14 @@
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
-  padding: 0px 20px;
+  padding-top: 4px;
 }
 .portfolio-card {
   margin: 0px;
   padding: 0;
+  height: 404px;
+  width: 370px;
+  border-radius: 0px;
   position: relative;
   overflow: hidden;
   transition: box-shadow 250ms;
@@ -453,9 +466,8 @@
   width: 370px;
   height: 294px;
   transform: translateY(100%);
-  padding-top: 49px;
   padding-left: 24px;
-  transition: transform 250ms;
+  transition: transform 250ms, background 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -467,10 +479,18 @@
 }
 
 .portfolio-overlay-text {
+  height: 196px;
+  width: 301px;
+  font-family: Roboto;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: white;
+  padding-top: 49px;
+  padding-right: 45px;
+  padding-bottom: 49px;
+  padding-left: 24px;
 }
 .container {
   width: 1600px;
