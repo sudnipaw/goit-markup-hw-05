@@ -63,7 +63,12 @@
     <main>
       <div class="container-motto">
         <h1 class="motto">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button" type="button">Zamów usługę</button>
+        <button data-modal-open class="button" type="button">Zamów usługę</button>
+        <div class="backdrop is-hidden" data-modal>
+          <section class="modal-content">
+            <button class="modal-exit" data-modal-close>X</button>
+          </section>
+        </div>
       </div>
       <div class="container-lorem-ipsum">
         <ul class="list-lorem">
